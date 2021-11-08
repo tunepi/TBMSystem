@@ -1,0 +1,399 @@
+body {
+    font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+    background-color:#f1f1f1;
+}
+/*ログイン関連ヘッダー*/
+header{
+    height: 100px;
+    background-color: skyblue;
+}
+
+.logo{
+    color: ghostwhite;
+    margin-left: 50px;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+/*ログインボックス*/
+.back_box{
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgray;
+    background-color:white;
+    margin: 20px 30px 0 30px;
+    height: auto;
+}
+
+.login_form{
+    display: flex;
+    justify-content: center;
+}
+.login_container{
+    width: 500px;
+    height: auto;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding-bottom: 10px ;
+    box-shadow: 0 0 5px lightgray;
+    background-color:white;
+}   
+.login_wrapper{
+  margin: 0 20px;
+}
+.login_box h3{
+    margin:30px 0;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.register_reset_container{
+    width: 500px;
+    height: auto;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding-bottom: 20px ;
+    box-shadow: 0 0 5px lightgray;
+    background-color:white;
+}   
+.login_box span{
+    color:red;
+}
+
+/*ログイン関連のボタン*/
+.btn {
+    width: 100%;
+}
+#twitter {
+    margin-bottom: 30px;
+    color:white;
+}
+#facebook{
+    margin-bottom: 30px;
+}
+.link a{
+    display: inline-block;
+    text-decoration: none;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+#login_link{
+    color:white;
+}
+/*メインページヘッダー*/
+.header_inner{
+    padding:0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_inner a{
+   display: inline-block;
+   text-decoration: none;
+   color: white;
+   
+}
+.right{
+    width: 200px;
+
+}
+.left{
+    padding:40px 0 0 0;
+    width:200px;
+    
+}
+.userName{
+    margin-right: 30px;
+}
+.mainLogo{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*カレンダー用*/
+.container {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 80px;
+}
+a {
+    text-decoration: none;
+}
+th {
+    height: 30px;
+    text-align: center;
+}
+td {
+    height: 100px;
+}
+td a{
+    text-decoration: none;
+    color: black;
+}
+.mb-5 a{
+    text-decoration: none;
+    color: black;
+}
+.today {
+    background: orange !important;
+}
+th:nth-of-type(1), td:nth-of-type(1) {
+    color: red;
+}
+th:nth-of-type(7), td:nth-of-type(7) {
+    color: blue;
+}
+/*メインページ*/
+.main_box{
+    display: flex;
+    padding:0 30px;
+}
+
+.tournament{
+    width: 500px;
+    height: 800px;
+    background-color:white;
+    margin:0 0px 20px 10px;
+    padding: 0px 20px;
+    box-shadow: 0 0 5px lightgray;
+    border-radius: 10px;
+}
+
+.tournament h2{
+    text-align: center;
+    border-bottom: solid 3px skyblue;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    font-family: Helvetica , "游ゴシック", sans-serif;
+}
+
+.tournament_name{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 25px;
+    border-bottom:solid 1px lightgrey;
+    text-align: left;
+}
+.tournament_name a{
+    color: black;
+    text-decoration: none;
+    
+}
+.tournament a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.search{
+    margin:48px 0 5px 0;
+    text-align: right;
+}
+
+.search input{
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+}
+.container{
+    border-radius: 10px;
+    background-color:white; 
+    box-shadow: 0 0 5px lightgray;
+    margin-bottom: 20px;   
+}
+/*選手詳細*/
+.detail_back{
+    background-color:#f1f1f1;
+    height: 700px;
+    padding-top: 30px;
+}
+.user_detail_box{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.detail_box{
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgray;
+    background-color:white;
+    margin: 0 30px;
+    height: auto;
+    padding: 20px 0;
+}
+
+.header_middle{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid 2px lightgrey;
+    padding:60px 30px 0 30px;
+}
+.header_middle a{
+    text-decoration: none;
+    color:black;
+}
+
+.detail{
+    margin-top: 40px;
+    padding:0 40px;
+}
+
+.detail span{
+    font-size: 30px;
+}
+/*大会検索結果*/
+.tournament_date_box{
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgray;
+    background-color:white;
+    height: 500px;
+    margin:20px 20px 0 20px;
+    padding:40px 20px 0 20px;
+}
+.tournament_date_box td{
+    font-size: 30px;
+}
+
+/*大会の追加*/
+.tournament_Info{
+   margin: 20px 0 0 0;
+}
+
+#colFormLabel{
+    width:300px;
+}
+.add_box{
+    padding:25px 30px;
+    
+}
+
+.add_back{
+    background-color:#f1f1f1;
+    height: auto;
+    padding: 30px 0;
+}
+.add_Info_box{
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgray;
+    background-color:white;
+    margin: 0px 30px;
+    height: auto;
+}
+.add_btn input{
+    background-color:royalblue; 
+    color:white;
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+    margin-left: 10px;
+}
+.row{
+    border-bottom: solid 1px lightgrey;
+    padding-bottom: 5px;
+}
+
+/*大会削除完了*/
+.delete_box{
+    width:100%;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+}
+.delete_box_inner{
+    width:50%;
+    height: 50%;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    padding: 40px;
+}
+.delete_box_inner p{
+    font-size: 30px;
+}
+.delete_box_inner p a{
+    text-decoration: none;
+}
+
+.delete_back_box{
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgray;
+    background-color:white;
+    margin: 0 30px;
+    height: 550px;
+}
+
+.tour_detail{
+    width: 226px;
+}
+.tour_detail label{
+    font-size: 16px;
+} 
+.tour_detail_inner{
+    display:flex; 
+    margin-bottom: 1rem!important;
+    padding-bottom: 3px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.add_box h3{
+    border-bottom:solid 1px lightgrey;
+    margin-bottom: 40px;
+}
+
+.error{
+    color: red;
+}
+
+.tour_line{
+    display: flex;
+    justify-content: space-between;
+}
+.tour_line a{
+    display: block;
+}
+.tour_mark{
+    width: 100px;
+    text-align: left;
+}
+.tour_mark a{
+    font-size: 15px;
+}
+.arrow{
+    display: flex;
+    width: 40px;
+    text-align: right;
+}
+.arrow a{
+    margin-right: 15px;
+}
+
+.header_link{
+    display: flex;
+    padding-top: 55px;
+}
+.top_link{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.arrow_link a{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.change{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.group_link a{
+    text-decoration: none;
+    color: black;
+}
+
+.arrow_group a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}

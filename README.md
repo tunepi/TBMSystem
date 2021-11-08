@@ -3,6 +3,7 @@
 スポーツの大会の登録、大会への参加登録ができるサイトを作成しました。
 
 # 使い方
+facebook API認証ログインを使用するためにhttps://github.com/facebookarchive/php-graph-sdk.gitからファイルをダウンロードしてください。
 管理ユーザと一般ユーザがあります
 
 一般ユーザでできること
